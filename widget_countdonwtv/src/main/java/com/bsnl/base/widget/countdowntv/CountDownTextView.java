@@ -219,7 +219,7 @@ public class CountDownTextView extends LinearLayout {
             long ltime = l / 1000;
             int days = (int) (ltime / (60 * 60 * 24));                         //计算出天数
             int hour = (int) ((ltime - (days * 60 * 60 * 24)) / (60 * 60));     //计算出小时
-            int minute = (int) ((ltime - (days * 60 * 60 * 24 )- (hour * 60 * 60)) / 60);
+            int minute = (int) ((ltime - (days * 60 * 60 * 24) - (hour * 60 * 60)) / 60);
             int second = (int) (ltime - (days * 60 * 60 * 24) - (hour * 60 * 60) - minute * 60);
 
 
@@ -281,6 +281,8 @@ public class CountDownTextView extends LinearLayout {
 
 
     private boolean isMerge() {
+        if (model == null)
+            return false;
         return model.model == Model.Merge.model;
     }
 

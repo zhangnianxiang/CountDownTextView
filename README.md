@@ -1,5 +1,9 @@
 # CountDownView -- 启动页倒计时
 
+根据博客
+https://blog.csdn.net/u011443596/article/details/52416639
+整理的一个控件
+
  - gradle
 
 ```
@@ -37,3 +41,4 @@ compile 'cn.lemon:countdownview:0.2.0'
 ## demo
 
 <image src="demo.jpg" width="320" heigh="564"/>
+<image src="demo2.jpg" width="320" heigh="564"/>
