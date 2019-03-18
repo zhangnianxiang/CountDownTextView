@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CountDownTextView">
+        <attr name="bg_color" format="reference|color" />
+        <attr name="model" format="integer"><!-- 模式，[01]  或者[0][1]  value = { 0（合并）,1(分开)} -->
+            <flag name="merge" value="1" />
+            <flag name="solo" value="2" />
+        </attr>
+
+        <attr name="box_height" format="reference|dimension" />
+        <attr name="box_width" format="reference|dimension" />
+        <attr name="box_text_size" format="reference|dimension" />
+
+        <attr name="unit_text_Size" format="reference|dimension" />
+        <attr name="unit_text_color" format="reference|color" />
+        <attr name="unit_orientation" format="integer"><!-- 单位的对齐方式-->
+            <flag name="top" value="1" />
+            <flag name="center" value="2" />
+            <flag name="bottom" value="3" />
+        </attr>
+        <attr name="show" format="integer"><!-- 方框显示，all 四个时间都会显示，hide，如果出现空，则不显示。three总是显示三个，day，hour，min，或者hour,min,sec-->
+            <flag name="all" value="1" />
+            <flag name="hide" value="2" />
+            <flag name="three" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

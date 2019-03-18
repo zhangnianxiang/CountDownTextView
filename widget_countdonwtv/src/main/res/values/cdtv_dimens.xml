@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="cdtv_height">45dp</dimen>
+    <dimen name="cdtv_width">30dp</dimen>
+
+    <dimen name="cdtv_textSize">22sp</dimen>
+    <dimen name="cdtv_unit_padding">5dp</dimen>
+    <dimen name="cdtv_time_padding">2dp</dimen>
+</resources>

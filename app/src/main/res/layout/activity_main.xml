@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bsnl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <com.bsnl.base.widget.countdowntv.CountDownTextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        bsnl:box_height="40dp"
+        bsnl:model="solo"
+        bsnl:show="three"
+        bsnl:box_width="25dp"
+        bsnl:unit_text_Size="14sp">
+
+    </com.bsnl.base.widget.countdowntv.CountDownTextView>
+
+</RelativeLayout>

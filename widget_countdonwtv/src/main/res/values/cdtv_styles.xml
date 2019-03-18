@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget_CountDownTextViewStyle">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">@dimen/cdtv_height</item>
+        <item name="android:background">@drawable/widget_countdowntv_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/cdtv_time_padding</item>
+        <item name="android:textColor">@color/cdtv_colorAccent</item>
+        <item name="android:textSize">@dimen/cdtv_textSize</item>
+    </style>
+
+    <style name="Widget_CountDownTextViewUnitStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/cdtv_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/cdtv_unit_padding</item>
+        <item name="android:layout_marginRight">@dimen/cdtv_unit_padding</item>
+        <item name="android:textColor">@color/cdtv_colorAccent</item>
+        <item name="android:textSize">@dimen/cdtv_textSize</item>
+    </style>
+
+</resources>

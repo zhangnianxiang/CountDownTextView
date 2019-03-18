@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">widget_countdonwTv</string>
+
+    <string name="cdtv_unit_day">天</string>
+    <string name="cdtv_unit_huor">时</string>
+    <string name="cdtv_unit_minu">分</string>
+    <string name="cdtv_unit_second">秒</string>
+</resources>
