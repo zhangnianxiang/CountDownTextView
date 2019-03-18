@@ -4,11 +4,6 @@
 https://blog.csdn.net/u011443596/article/details/52416639
 整理的一个控件
 
- - gradle
-
-```
-compile 'cn.lemon:countdownview:0.2.0'
-```
 
 ## 使用
 ```xml
