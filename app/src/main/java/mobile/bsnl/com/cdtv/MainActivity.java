@@ -13,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CountDownTextView textView = findViewById(R.id.tv_countdown);
+        textView.setCownDownListener(new CountDownTextView.stopListener() {
+            @Override
+            public void stop() {
+
+            }
+        });
         textView.startTimer(1000 * 60 * 60 * 24 *23);
 
 
